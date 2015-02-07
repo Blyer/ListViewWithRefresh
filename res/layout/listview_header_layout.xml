@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:id="@+id/listview_dropstate_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/listview_dropstate_textView_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/listview_dropstate_textView_hint" />
+
+            <TextView
+                android:id="@+id/listview_dropstate_textView_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/listview_dropstate_textView_time" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/listview_dropstate_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/listview_dropstate_layout"
+            android:contentDescription="@string/alv_common"
+            android:paddingRight="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_down" />
+
+        <ProgressBar
+            android:id="@+id/listview_dropstate_progressBar"
+            style="@android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/listview_dropstate_layout"
+            android:paddingRight="10dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

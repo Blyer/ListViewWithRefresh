@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alv_common">自定义ListView</string>
+    <string name="listview_dropstate_textView_hint">下拉进行刷新</string>
+    <string name="listview_dropstate_textView_time">上次更新于19:50</string>
+    
+</resources>
