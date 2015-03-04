@@ -3,5 +3,5 @@
     <string name="alv_common">自定义ListView</string>
     <string name="listview_dropstate_textView_hint">下拉进行刷新</string>
     <string name="listview_dropstate_textView_time">上次更新于19:50</string>
-    
+    <string name="foot_hint">正在加载数据......</string>
 </resources>
