@@ -171,15 +171,16 @@ public class ListViewWithRefresh extends ListView
 					state = NONE;
 					refreshHeaderViewByState(null);
 				}
+				this.setSelection(0);
 				break;
 			case RELESE:
-				Log.i("mytag", topPadding+"");
 				setTopPadding(topPadding);
 				if (space < headerViewHeight)
 				{
 					state = PULL;
 					refreshHeaderViewByState(anim2);
 				}
+				this.setSelection(0);
 				break;
 		}
 	}
